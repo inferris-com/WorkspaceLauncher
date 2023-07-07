@@ -1,3 +1,5 @@
+package com.inferris;
+
 public enum Software {
     INTELLIJ_IDEA("path.intellij"),
     CMD_PROMPT_PROXY("path.proxy"),

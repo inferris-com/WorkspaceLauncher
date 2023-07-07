@@ -1,21 +1,21 @@
+package com.inferris;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.*;
 import java.nio.file.Files;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class Initializer {
-    private final String LAUNCHER_TEXT = "Launcher";
+    private final String LAUNCHER_TEXT = "com.inferris.Launcher";
     private JButton redisButton = null;
     private JButton workspaceButton = null;
     private static JFrame frame;
     private static boolean isMinimized;
 
     public void initialize() {
-        frame = new JFrame("Inferris Launcher");
+        frame = new JFrame("Inferris com.inferris.Launcher");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel container = new JPanel();
